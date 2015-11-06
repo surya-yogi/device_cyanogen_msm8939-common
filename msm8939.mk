@@ -38,6 +38,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
 
+# Adreno driver dependencies
+PRODUCT_PACKAGES += \
+    libboringssl-compat \
+    libstlport
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
