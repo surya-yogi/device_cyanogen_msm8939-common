@@ -40,8 +40,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Adreno driver dependencies
 PRODUCT_PACKAGES += \
-    libboringssl-compat \
-    libstlport
+    libboringssl-compat
 
 # Audio
 PRODUCT_PACKAGES += \
