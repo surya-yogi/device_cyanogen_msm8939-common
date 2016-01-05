@@ -125,7 +125,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml
 
 PRODUCT_PACKAGES += \
-    libdashplayer \
     libextmedia_jni \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -134,11 +133,7 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw \
-    qcmediaplayer
-
-PRODUCT_BOOT_JARS += \
-    qcmediaplayer
+    libstagefrighthw
 
 # Power HAL
 PRODUCT_PACKAGES += \
